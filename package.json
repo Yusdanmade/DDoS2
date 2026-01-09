@@ -1,0 +1,22 @@
+{
+  "name": "ses-bot",
+  "version": "1.0.0",
+  "description": "Discord ses kanalında 7/24 aktif kalan bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["discord", "bot", "ses", "24/7"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "@discordjs/voice": "^0.16.1",
+    "ffmpeg-static": "^5.2.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
